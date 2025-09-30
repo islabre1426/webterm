@@ -1,7 +1,0 @@
-default:
-  image: alpine:latest
-
-create-pages:
-  script:
-    - cp -r src/ public/
-  pages: true
